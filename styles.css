@@ -1,0 +1,45 @@
+:root {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* . to access classes, # to access ids */
+#tab-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tab {
+    border: 3px solid green;
+    padding: 30px;
+    margin: 100px;
+}
+
+#heading-container {
+    display: flex;
+    justify-content: center;
+    background-color: salmon;
+    color: seagreen;
+}
+
+.content {
+    border: 1px solid pink;
+    padding: 5px;
+    min-height: 1000px;
+    min-width: 300px;
+}
+
+#content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.is-showing {
+    display: block;
+    background: pink;
+}
+
+.is-hidden {
+    display: none;
+}

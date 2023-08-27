@@ -1,1 +1,39 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="myscripts.js"></script>
+</head>
+<div id="heading-container">
+    <h1> Izzy Wang</h1>
+</div>
+<div id="tab-container">
+    <div onclick="onResumeClick()" class="tab" id="resume">
+        <h2>Resume</h2>
+
+    </div>
+
+    <div onclick="onProjectsClick()" class="tab" id="projects">
+        <h2>Projects</h2>
+
+    </div>
+    <div onclick="onBioClick()" class="tab" id="bio">
+        <h2>Bio</h2>
+
+    </div>
+</div>
+<div id="content-container">
+    <div class="content is-showing" id="resume-content">
+        <p>Resume</p>
+    </div>
+    <div class="content is-hidden" id="projects-content">
+        <p>Projects</p>
+    </div>
+    <div class="content is-hidden" id="bio-content">
+        <p>Bio</p>
+    </div>
+</div>
+</body>
+
+</html>
